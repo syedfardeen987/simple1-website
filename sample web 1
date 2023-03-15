@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Ethically for Ethical Hackers - Blog</title>
+  <div class="bg-gray-300">
+  <!-- Add Tailwind CSS CDN link -->
+  <link href="https://cdn.tailwindcss.com" rel="stylesheet">
+</head>
+<body>
+  <!-- Navigation bar -->
+  <nav class="bg-gray-900 p-4">
+    <div class="container mx-auto flex justify-between items-center">
+      <img src="https://t3.ftcdn.net/jpg/01/81/82/46/240_F_181824660_P5SWe1txaMBRKG7KQjRIISnOMeb7EkSU.jpg" class="w-16">
+      <a href="#" class="text-white font-bold text-2xl">Ethically</a>
+      <ul class="flex">
+        <li><a href="#" class="text-gray-200 hover:text-white  hover:border-white px-4 hover:bg-transparent">Home</a></li>
+        <li><a href="#" class="text-gray-200 hover:text-white px-4">Blog</a></li>
+        <li><a href="#" class="text-gray-200 hover:text-white px-4">About</a></li>
+        <li><a href="#" class="text-gray-200 hover:text-white px-4">Contact</a></li>
+      </ul>
+    </div>
+  </nav>
+
+  <!-- Hero section -->
+  <section class="bg-gray-800 text-white py-16">
+    <div class="container mx-auto">
+      <h1 class="text-5xl font-bold mb-2">Ethically for Ethical Hackers</h1>
+      <p class="text-xl">A blog about Ethical Hacking and CyberSecurity...</p>
+    </div>
+  </section>
+
+  <!-- Blog post section -->
+  <section class="container mx-auto my-16">
+    <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
+      <!-- Blog post card 1 -->
+      <div class="bg-white rounded-lg overflow-hidden shadow-lg">
+        <img src="https://images.squarespace-cdn.com/content/v1/5ef07334254666386ed45a91/1602287342527-1JIQF0EXXO4BXL2QBJGS/Computer+Hacker.png" alt="" class="w-full">
+        <div class="p-4">
+          <h2 class="font-bold text-xl mb-2">How to protect your online privacy</h2>
+          <p class="text-gray-700 text-base">Protecting your online privacy refers to taking steps to keep your personal information safe and secure while using the internet.</p>
+          <a href="#" class="bg-yellow-400 text-black font-bold py-2 px-4 mt-4 inline-block rounded hover:bg-transparent hover:bg-yellow-800 active:bg-indigo-600 focus:outline-none">Read more</a>
+        </div>
+      </div>
+
+      <!-- Blog post card 2 -->
+      <div class="bg-white rounded-lg overflow-hidden shadow-lg">
+        <img src="https://mnstateitcoe.org/wp-content/uploads/2020/10/CSImageHackerCropped.jpg" alt="" class="w-full">
+        <div class="p-4">
+          <h2 class="font-bold text-xl mb-2">The importance of cybersecurity in 2023</h2>
+          <p class="text-gray-700 text-base">The rise of remote work and cloud computing has increased the attack surface for cyber criminals, making it essential to have robust cybersecurity measures in place.</p>
+          <a href="#" class="bg-yellow-400 text-black font-bold py-2 px-4 mt-4 inline-block rounded hover:bg-transparent hover:bg-yellow-800 active:bg-indigo-600 focus:outline-none">Read more</a>
+        </div>
+      </div>
+
+      <!-- Blog post card 3 -->
+      <div class
